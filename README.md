@@ -58,6 +58,8 @@
     The memory bandwidth of all three instances is around 19GB/s, with minimal variation, suggesting that RAM performance remains nearly identical across different instance types under default test conditions. Although c5d.large achieves the highest memory bandwidth at 19559.65 MB/s, the difference is not substantial, indicating that increasing vCPU count does not significantly improve EC2 instance memory speed.
 
 ## Question 2: Measure the EC2 Network performance
+![network-output-sample](https://github.com/user-attachments/assets/913b1a19-69ce-4d73-9e0d-e27e7bf5c64c)
+![ping-output-sample](https://github.com/user-attachments/assets/b4db9fc4-3540-4e38-94d0-44d102a51b94)
 
 1. (1 mark) The metrics of network performance include **TCP bandwidth** and **round-trip time (RTT)**. Within the same region, what network performance is experienced between instances of the same type and different types? In order to answer this question, you need to complete the following table.
 
